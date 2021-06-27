@@ -1,60 +1,69 @@
 body {
-    background-color: #f44336;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
+  background-color: #f44336;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
 }
 
 .hint {
-	font-family: sans-serif;
-	font-weight: 100;
-  
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	left: 20px;
-  
-	display: flex;
-  
-	height: 100px;
-	padding: 4em;
-  
-	background-color: #fff8;
-  
-	align-items: center;
-	text-align: center;
-	justify-content: center;
-	transition-duration: 1s;
-	transition-timing-function: linear;
+  font-family: sans-serif;
+  font-weight: 100;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+
+  display: flex;
+
+  height: 100px;
+  padding: 4em;
+
+  background-color: #fff8;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: #ff9800;
   }
-  @media (min-width: 600px) {
-	  body {
-		background-color:#ff9800;
-	  }
-  }   
-  @media (min-width: 650px) {
-	  body {
-		background-color:#ffeb3b;
-	  }
-  }   
-  @media (min-width: 700px) {
-	  body {
-		background-color:#4caf50;
-	  }
-  }  
-  @media (min-width: 750px) {
-	  body {
-		background-color: #2196f3;
-	  }
-  }   
-  @media (min-width: 800px) {
-	  body {
-		background-color:#3f51b5;
-	  }
-  }  
-  @media (min-width: 850px) {
-	  body {
-		background-color:#9c27b0;
-	  }
-  }   
-  
+}
+@media (min-width: 650px) {
+  body {
+    background-color: #ffeb3b;
+  }
+}
+@media (min-width: 700px) {
+  body {
+    background-color: #4caf50;
+  }
+}
+@media (min-width: 750px) {
+  body {
+    background-color: #2196f3;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    background-color: #3f51b5;
+  }
+}
+@media (min-width: 850px) {
+  body {
+    background-color: #9c27b0;
+  }
+}
+@media screen and (min-height: 550px) {
+  .hint {
+    top: calc(50vh - 114px);
+  }
+}
+@media screen and (min-height: 650px) {
+  .hint {
+    top: calc(100vh - 248px);
+  }
+}
